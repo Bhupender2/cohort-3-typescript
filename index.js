@@ -6,3 +6,14 @@ function greeting(firstName) {
     console.log(`hello ${firstName}`);
 }
 greeting("anurag");
+// make a functiion that calculates the sum of two numver
+// make a function which checks the legal age
+function isLegal(age) {
+    if (age > 18) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isLegal(16));

@@ -11,3 +11,18 @@ function greeting(firstName: string) {
 greeting("anurag");
 
  // make a functiion that calculates the sum of two numver
+
+
+
+
+ // make a function which checks the legal age
+ function isLegal(age:number){
+  if (age>18){
+    return true
+  }
+  else{
+    return false
+  }
+ }
+
+ console.log(isLegal(16))
