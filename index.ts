@@ -29,3 +29,18 @@ function sum(a: number, b: number): number {
   return a + b;
 }
 console.log(sum(1, 2));
+
+// creating a function that take a function as an argument and runs it after 1 second
+
+function takefunction(anotherFn: () => number) {
+  setTimeout(() => {
+    console.log(anotherFn());
+  }, 1000);
+}
+
+function Fn() {
+  return 2;
+}
+console.log(takefunction(Fn));
+
+// ()=> void   ---it means it takes zero arguments and it returns nothing . if it retuns 2 we will write  ()=> number
