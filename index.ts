@@ -10,19 +10,22 @@ function greeting(firstName: string) {
 
 greeting("anurag");
 
- // make a functiion that calculates the sum of two numver
+// make a functiion that calculates the sum of two numver
 
-
-
-
- // make a function which checks the legal age
- function isLegal(age:number){
-  if (age>18){
-    return true
+// make a function which checks the legal age
+function isLegal(age: number) {
+  if (age > 18) {
+    return true;
+  } else {
+    return false;
   }
-  else{
-    return false
-  }
- }
+}
 
- console.log(isLegal(16))
+console.log(isLegal(16));
+
+// create a funtion tht gives the sum if two numbers
+
+function sum(a: number, b: number): number {
+  return a + b;
+}
+console.log(sum(1, 2));

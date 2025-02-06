@@ -17,3 +17,8 @@ function isLegal(age) {
     }
 }
 console.log(isLegal(16));
+// create a funtion tht gives the sum if two numbers
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(1, 2));
