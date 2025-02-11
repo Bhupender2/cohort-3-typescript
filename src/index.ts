@@ -46,3 +46,16 @@ console.log(takefunction(Fn));
 // ()=> void   ---it means it takes zero arguments and it returns nothing . if it retuns 2 we will write  ()=> number
 
 // we are giving lots of information to the typescript compiler ..ye function ko ye return karna chahiye (called the function in a 100 places so whenever it retunr something (different type) the comoiler will complain ) if ever be called with the wrong type please break the code
+
+let user = {
+  name: "bhupender",
+  age: 24,
+};
+
+// u can define an object like this but u cant define the typecript kike this
+
+// let useType={
+//   firstName:string,
+//   lastName:string,
+//   age:number
+// }
