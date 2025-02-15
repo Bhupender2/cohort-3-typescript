@@ -47,15 +47,20 @@ console.log(takefunction(Fn));
 
 // we are giving lots of information to the typescript compiler ..ye function ko ye return karna chahiye (called the function in a 100 places so whenever it retunr something (different type) the comoiler will complain ) if ever be called with the wrong type please break the code
 
-let user = {
-  name: "bhupender",
-  age: 24,
-};
-
 // u can define an object like this but u cant define the typecript kike this
 
-// let useType={
-//   firstName:string,
-//   lastName:string,
-//   age:number
-// }
+interface userType {
+  firstName: string;
+  lastName: string;
+  age: number;
+}
+
+function greet(user: userType) {
+  console.log("hello " + user.firstName);
+}
+
+greet({
+  firstName: "hero",
+  age: 21,
+  lastName: "raja",
+});
