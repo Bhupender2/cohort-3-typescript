@@ -65,3 +65,10 @@ greet({
   lastName: "raja",
 });
 //in type u can do unions and intersection which u cant do in interfcace its one of the major difference between tyoe and intefaces
+
+
+type  SumInput = string | number;
+
+function namee(a:SumInput, b:SumInput){
+  return a+b
+}
