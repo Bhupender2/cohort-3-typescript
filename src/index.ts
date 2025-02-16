@@ -64,3 +64,4 @@ greet({
   age: 21,
   lastName: "raja",
 });
+//in type u can do unions and intersection which u cant do in interfcace its one of the major difference between tyoe and intefaces
