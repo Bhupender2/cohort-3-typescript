@@ -81,3 +81,30 @@ function legalAge(age: number): boolean {
     return false;
   }
 }
+
+interface Userr {
+  name: string;
+  number: number;
+  address: {
+    street: string;
+    pincode: number;
+    city: string;
+  };
+}
+
+let user={
+  name:"harkirat",
+  number:930399393,
+  address:{
+    street:"60 foot road",
+    pincode:92992,
+    city:"haryana"
+
+  }
+}
+
+function userAdress(user:Userr):string{
+  return `hello this is my ${user.address.street}`
+}
+
+userAdress(user)
