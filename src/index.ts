@@ -67,8 +67,10 @@ greet({
 //in type u can do unions and intersection which u cant do in interfcace its one of the major difference between tyoe and intefaces
 
 
-type  SumInput = string | number;
+// type  SumInput = string | number;
 
-function namee(a:SumInput, b:SumInput){
-  return a+b
-}
+// function namee(a:SumInput, b:SumInput){
+//   return a+b
+// }  
+
+// the reason  why typescript is throwing error is because it doesnt know if it needs to concatenate or add , as typescript doesnt do implicit type coersion  ( bcoz its strict about types) thats why it throws error
