@@ -108,3 +108,6 @@ function userAdress(user:Userr):string{
 }
 
 userAdress(user)
+
+
+// optional paramters are also added ----------- ?  so it makes the property optional and typescript wont complain obviously .....but it can also make the subproperty optional if u want to
