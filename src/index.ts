@@ -66,6 +66,7 @@ greet({
 });
 //in type u can do unions and intersection which u cant do in interfcace its one of the major difference between tyoe and intefaces
 
+<<<<<<< HEAD
 type SumInput = string | number;
 
 function namee(a: SumInput, b: SumInput) {
@@ -85,3 +86,50 @@ interface User {
   phone: number;
   address: Address;   // here i use another inteface as interface
 }
+=======
+// type  SumInput = string | number;
+
+// function namee(a:SumInput, b:SumInput){
+//   return a+b
+// }
+
+// the reason  why typescript is throwing error is because it doesnt know if it needs to concatenate or add , as typescript doesnt do implicit type coersion  ( bcoz its strict about types) thats why it throws error
+
+function legalAge(age: number): boolean {
+  if (age >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+interface Userr {
+  name: string;
+  number: number;
+  address: {
+    street: string;
+    pincode: number;
+    city: string;
+  };
+}
+
+let user={
+  name:"harkirat",
+  number:930399393,
+  address:{
+    street:"60 foot road",
+    pincode:92992,
+    city:"haryana"
+
+  }
+}
+
+function userAdress(user:Userr):string{
+  return `hello this is my ${user.address.street}`
+}
+
+userAdress(user)
+
+
+// optional paramters are also added ----------- ?  so it makes the property optional and typescript wont complain obviously .....but it can also make the subproperty optional if u want to
+>>>>>>> b8cdeb5a4cb5fcd8cc0c7dab5723c8dee1c344f3
