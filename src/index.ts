@@ -66,9 +66,22 @@ greet({
 });
 //in type u can do unions and intersection which u cant do in interfcace its one of the major difference between tyoe and intefaces
 
+type SumInput = string | number;
 
-type  SumInput = string | number;
+function namee(a: SumInput, b: SumInput) {
+  return a + b;
+}
 
-function namee(a:SumInput, b:SumInput){
-  return a+b
+// we can use other interface as interface for the type defination
+
+interface Address {
+  street: string;
+  pincode: number;
+  state: string;
+}
+
+interface User {
+  name: string;
+  phone: number;
+  address: Address;   // here i use another inteface as interface
 }
