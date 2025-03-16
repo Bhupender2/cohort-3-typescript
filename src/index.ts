@@ -115,8 +115,8 @@ interface People {
   age: number;
   greet: () => string;
 }
-
-let person: People = {
+ 
+let person: People = {   //person is of type people
   name: "bhupender",
   age: 12,
   greet: () => {
