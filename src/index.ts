@@ -66,7 +66,6 @@ greet({
 });
 //in type u can do unions and intersection which u cant do in interfcace its one of the major difference between tyoe and intefaces
 
- 
 // type  SumInput = string | number;
 
 // function namee(a:SumInput, b:SumInput){
@@ -93,23 +92,26 @@ interface Userr {
   };
 }
 
-let user={
-  name:"harkirat",
-  number:930399393,
-  address:{
-    street:"60 foot road",
-    pincode:92992,
-    city:"haryana"
+let user = {
+  name: "harkirat",
+  number: 930399393,
+  address: {
+    street: "60 foot road",
+    pincode: 92992,
+    city: "haryana",
+  },
+};
 
-  }
+function userAdress(user: Userr): string {
+  return `hello this is my ${user.address.street}`;
 }
 
-function userAdress(user:Userr):string{
-  return `hello this is my ${user.address.street}`
-}
-
-userAdress(user)
-
+userAdress(user);
 
 // optional paramters are also added ----------- ?  so it makes the property optional and typescript wont complain obviously .....but it can also make the subproperty optional if u want to
 
+interface people {
+  name: string;
+  age: number;
+  greet: () => string;
+}
