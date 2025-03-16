@@ -110,8 +110,16 @@ userAdress(user);
 
 // optional paramters are also added ----------- ?  so it makes the property optional and typescript wont complain obviously .....but it can also make the subproperty optional if u want to
 
-interface people {
+interface People {
   name: string;
   age: number;
   greet: () => string;
 }
+
+let person: People = {
+  name: "bhupender",
+  age: 12,
+  greet: () => {
+    return "hi bhupender";
+  },
+};
