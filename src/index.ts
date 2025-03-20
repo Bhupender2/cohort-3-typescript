@@ -113,13 +113,23 @@ userAdress(user);
 interface People {
   name: string;
   age: number;
-  greet: () => string;
+  // greet: () => string;
 }
- 
-let person: People = {   //person is of type people
+
+let person: People = {
+  //person is of type people
   name: "bhupender",
   age: 12,
-  greet: () => {
-    return "hi bhupender";
-  },
+  // greet: () => {
+  //   return "hi bhupender";
+  // },
 };
+
+class Manager implements People {
+  name: string;
+  age: number;
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+} // why use classes over object using people imterface that it gives the power of enhiretnece ( extending the one class to another)
