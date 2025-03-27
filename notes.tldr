@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1365.5526597006974,
-			"y": 4218.990357453154,
-			"lastActivityTimestamp": 1743071837471,
+			"x": 1043.440176131908,
+			"y": 3932.856332056821,
+			"lastActivityTimestamp": 1743078247493,
 			"meta": {}
 		},
 		{
@@ -1805,7 +1805,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 144.69322852420484,
+			"x": -979.1023509219831,
 			"y": -3817.725482270289,
 			"z": 0.47250586290940866,
 			"meta": {},
@@ -1938,12 +1938,10 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:iczkVLZcVBIM6O_Ap25E5",
+			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:iczkVLZcVBIM6O_Ap25E5"
-			],
-			"hoveredShapeId": "shape:iczkVLZcVBIM6O_Ap25E5",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -2063,6 +2061,45 @@
 			},
 			"parentId": "page:page",
 			"index": "aWCCM",
+			"typeName": "shape"
+		},
+		{
+			"x": 1316.452714010755,
+			"y": 4287.445390923449,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KROLlAEKPQbI_M1RSdyoD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 647.7125244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "& ------ intesection both the types should be there "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aa1J6",
 			"typeName": "shape"
 		},
 		{
@@ -2675,6 +2712,63 @@
 			},
 			"parentId": "page:page",
 			"index": "aV8iI",
+			"typeName": "shape"
+		},
+		{
+			"x": 1186.0838837875754,
+			"y": 4345.010840036714,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:BIVu8TlkcTRhpLRD_zSl5",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 978.4000244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "it needs everything that is common and everything that is the individual have"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "jo common h vo plus jo bach gya h baaki types mein vo bhi (ji uncommon h )"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "abCAc",
 			"typeName": "shape"
 		},
 		{
@@ -3873,7 +3967,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
