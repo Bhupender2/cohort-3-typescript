@@ -132,4 +132,10 @@ class Manager implements People {
     this.name = name;
     this.age = age;
   }
-} // why use classes over object using people imterface that it gives the power of enhiretnece ( extending the one class to another)   
+} // why use classes over object using people imterface that it gives the power of enhiretnece ( extending the one class to another)
+
+// types (its another way of aggregating data together)
+type Usernew = {
+  name: string;
+  age: number;
+};
