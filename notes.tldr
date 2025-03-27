@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1043.440176131908,
-			"y": 3932.856332056821,
-			"lastActivityTimestamp": 1743078247493,
+			"x": 1830.1589803722395,
+			"y": 4550.5768789350805,
+			"lastActivityTimestamp": 1743080097645,
 			"meta": {}
 		},
 		{
@@ -1805,9 +1805,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -979.1023509219831,
-			"y": -3817.725482270289,
-			"z": 0.47250586290940866,
+			"x": 273.3462346931984,
+			"y": -3732.7550083362407,
+			"z": 0.4274769588242063,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1938,10 +1938,51 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"x": 1197.610210591034,
+			"y": 4545.605524988969,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:j1Y-LFXklhXJBC6QgANSu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 754.2750244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": " if the type is array of number we will do number[]  as type"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "ac6Mt",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:j1Y-LFXklhXJBC6QgANSu",
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:j1Y-LFXklhXJBC6QgANSu"
+			],
+			"hoveredShapeId": "shape:j1Y-LFXklhXJBC6QgANSu",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -3950,7 +3991,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1204,
-				"h": 478.3999938964844
+				"h": 702.4000244140625
 			},
 			"insets": [
 				false,
@@ -3967,7 +4008,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
