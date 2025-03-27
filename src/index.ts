@@ -139,3 +139,17 @@ type Usernew = {
   name: string;
   age: number;
 };
+
+//Given an array of positive integers as input, return the maximum value in the array
+
+function maxNumber(nums: number[]) {
+  let max = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (i > max) {
+      max = nums[i];
+    }
+  }
+  return max;
+}
+
+console.log(maxNumber([1, 3, 2]))
