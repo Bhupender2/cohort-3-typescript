@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1070.8324738451468,
-			"y": 3399.3695226733325,
-			"lastActivityTimestamp": 1743070250580,
+			"x": 1202.7239524020147,
+			"y": 3795.0440890260825,
+			"lastActivityTimestamp": 1743070947752,
 			"meta": {}
 		},
 		{
@@ -1805,8 +1805,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 210.3995922021956,
-			"y": -2869.5195458984576,
+			"x": 327.4461888259787,
+			"y": -3317.722367116359,
 			"z": 0.3502878441804183,
 			"meta": {},
 			"id": "camera:page:page",
@@ -1864,6 +1864,45 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 693.4285347608641,
+			"y": 3787.9794672384496,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:NBQO8hQXHts7JShSXNGPm",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 981.9125366210938,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "you can't implement the type in class but u can do that in interfaces in classes"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aX3od",
+			"typeName": "shape"
+		},
+		{
 			"x": -238.91,
 			"y": 83.86,
 			"rotation": 0,
@@ -1887,12 +1926,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:NBQO8hQXHts7JShSXNGPm",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:j8pxGBThedAVBffJ0RpBz"
+				"shape:NBQO8hQXHts7JShSXNGPm"
 			],
-			"hoveredShapeId": "shape:j8pxGBThedAVBffJ0RpBz",
+			"hoveredShapeId": "shape:NBQO8hQXHts7JShSXNGPm",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
