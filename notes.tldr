@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": -177.85494617499057,
-			"y": 3053.368350805057,
-			"lastActivityTimestamp": 1743062167713,
+			"x": 1070.8324738451468,
+			"y": 3399.3695226733325,
+			"lastActivityTimestamp": 1743070250580,
 			"meta": {}
 		},
 		{
@@ -1805,8 +1805,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1406.5587137964662,
-			"y": -2715.360613759817,
+			"x": 210.3995922021956,
+			"y": -2869.5195458984576,
 			"z": 0.3502878441804183,
 			"meta": {},
 			"id": "camera:page:page",
@@ -1887,12 +1887,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:aRpn0ux2OowDyG462FcaJ",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:aRpn0ux2OowDyG462FcaJ"
+				"shape:j8pxGBThedAVBffJ0RpBz"
 			],
-			"hoveredShapeId": "shape:aRpn0ux2OowDyG462FcaJ",
+			"hoveredShapeId": "shape:j8pxGBThedAVBffJ0RpBz",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -1940,8 +1940,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 622.0781358270134,
-			"y": 3370.3482437352245,
+			"x": 713.4315770943564,
+			"y": 3390.9027593082337,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1973,6 +1973,45 @@
 				}
 			},
 			"index": "aT9Rf",
+			"typeName": "shape"
+		},
+		{
+			"x": 666.7863869242497,
+			"y": 3590.5722601505736,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:C3Bw--9wuFn22PuOQNoCf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 920,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "If I need shared functionality across multiple classes, I’ll use an abstract class. But if I just need to enforce a structure, I’ll go with an interface."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aWCCM",
 			"typeName": "shape"
 		},
 		{
@@ -2546,6 +2585,45 @@
 				"flipY": false
 			},
 			"index": "aC8Rk",
+			"typeName": "shape"
+		},
+		{
+			"x": 655.367206765832,
+			"y": 3462.677433664151,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:5MS1-k0SbTSGhBEvIdR5Q",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 920,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Abstract classes provide default implementation that child classes can use or override, while interfaces only define the structure without any default behavior.\""
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aV8iI",
 			"typeName": "shape"
 		},
 		{
